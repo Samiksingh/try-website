@@ -150,6 +150,10 @@ h1{
     box-sizing: border-box;
     transition: 0.5s;
 }
+.services-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
 h3{
     text-align: center;
     font-weight: 600;
@@ -181,9 +185,7 @@ h3{
     padding: 10px;
 }
 
-.services-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
+
 .house-col{
     flex-basis: 32% ;
     border-radius: 10%;
@@ -194,6 +196,8 @@ h3{
 }
 .house-col img{
     width: 100%;
+    display: block;
+    
 }
 .layer{
     background: transparent;
@@ -210,3 +214,16 @@ h3{
     
 
 }
+
+.layer h3 {
+    width: 100px;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
